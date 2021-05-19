@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,8 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<center>
-		<table width = "600" border = "1">
+	<table width = "600" border = "1">
 		<!-- Top -->
 			<tr height="150" align="center">
 				<td>
@@ -18,7 +17,7 @@
 		<!-- Center -->
 			<tr height="400">
 				<td width = "600" align="center">
-					<img alt ="" src = "images/1.jpg" width="400" height="300">
+					<img alt ="" src = "../images/1.jpg" width="400" height="300">
 				</td>
 			</tr>
 			
@@ -28,7 +27,6 @@
 					<%@include file="Buttom.jsp" %>
 				</td>
 			</tr>
-		</table>
-	</center>
+	</table>
 </body>
 </html>

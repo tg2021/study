@@ -1,23 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>
-<body>
-
-	<center>
-		<table width = "600" >
+<body>	
+	<table width = "600" >
 			<tr height="100">
 				<td align = "center" >
-					È¸»ç ¼ÒÀç : ¼­¿ï Æ¯º°½Ã °­¼­±¸ ¹ß»êµ¿ ´ëÁÖ @ 102µ¿ <br>
-					ÀüÈ­ ¹øÈ£ : 02-88-78788
+					íšŒì‚¬ ì†Œìž¬ : ì„œìš¸ íŠ¹ë³„ì‹œ ê°•ì„œêµ¬ ë°œì‚°ë™ ëŒ€ì£¼ @ 102ë™ <br>
+					ì „í™” ë²ˆí˜¸ : 02-88-78788
 				</td>
 			</tr>
 		</table>
-	</center>
-
 </body>
 </html>

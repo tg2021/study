@@ -1,4 +1,4 @@
-package ch03.Variables;
+package ch03.variables;
 
 public class VariablesClass02_01 {
     // 전역변수

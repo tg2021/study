@@ -1,4 +1,4 @@
-package ch03.Variables;
+package ch03.variables;
 
 public class VariablesClassTheory01 {
     public static void main(String[] args) {

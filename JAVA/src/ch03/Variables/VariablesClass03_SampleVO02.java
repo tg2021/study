@@ -1,4 +1,4 @@
-package ch03.Variables;
+package ch03.variables;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package ch02.DataType;
+package ch02.datatype;
 public class DataTypeClass01 {
     public static void main(String[] args) {
         char charOne = '안';

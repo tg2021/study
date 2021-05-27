@@ -1,7 +1,10 @@
 package ch08.oop.class_;
 
 public class PropertyOfClass {
+
     
+
+    public static final String[] innerClassPropertiesName = null;
 
     // 정적전역변수
     public static int entityCount;
@@ -62,12 +65,11 @@ public class PropertyOfClass {
         toString : 어떤 클래스의 전역변수값을 확인할때 사용
         해당 객체의 전역변수값을 확인할 때
         */
-        return "PropertyOfClass [goodsName=" + goodsName + ", goodsNo=" + goodsNo + ", goodsPrice=" + goodsPrice + "]";
+        return "PropertyOfClass [goodsNo=" + goodsNo + ",goodsName=" + goodsName + ", goodsPrice=" + goodsPrice + "]";
     }
     
-    public static class InnerClassInfo {
+    public static class InnerClassInfo{
         public static String[] innerClassPropertiesName = new String[] {"상품번호", "상품명", "단가"};
         public static int[] innerClassPropertiesPrice = new int[] {100, 1000, 2500, 3500};
-
     }
 }

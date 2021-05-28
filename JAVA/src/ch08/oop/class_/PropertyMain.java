@@ -13,16 +13,16 @@ public class PropertyMain {
         System.out.println(PropertyOfClassHasName.toString());
         System.out.println(PropertyOfClassHasNamePrice.toString());
 
-        String[] strNm = PropertyOfClass.InnerClassInfo.innerClassPropertiesName;
+        //String[] strNm = PropertyOfClass.InnerClassInfo.innerClassPropertiesName;
 		
-		for(String strVal : strNm) {
-			System.out.println("strVal : " + strVal);
-		}
+		// for(String strVal : strNm) {
+		// 	System.out.println("strVal : " + strVal);
+		// }
 		
-		int[] intPrice = PropertyOfClass.InnerClassInfo.innerClassPropertiesPrice;
+		// int[] intPrice = PropertyOfClass.innerClassInfo.
 		
-		for(int intVal : intPrice) {
-			System.out.println("intVar : " + intVal);
-		}
+		// for(int intVal : intPrice) {
+		// 	System.out.println("intVar : " + intVal);
+		// }
     }
 }

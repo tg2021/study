@@ -23,14 +23,15 @@ public class InterfaceMainMethod {
         int sampleCount = sampleFirst.sampleCount;
         System.out.println("sampleCount : " + sampleCount);
 
+        /*
         InterfaceClass01.D create = InnerClass01.D.CREATE;
         InterfaceClass01.D read = InnerClass01.D.READ;
         InterfaceClass01.D update = InnerClass01.D.UPDATE;
         InterfaceClass01.D delete = InnerClass01.D.DELETE;
-
         System.out.println("create : " + create);
         System.out.println("read : " + read);
         System.out.println("update : " + update);
         System.out.println("delete : " + delete);
+        */
     }
 }

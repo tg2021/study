@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -29,11 +36,11 @@
     <property name="project.structure.side.proportion" value="0.22103658" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.CalculatorClass03">
-    <configuration name="CalculatorClass02" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SetClass01">
+    <configuration name="CalculatorClass03" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ch04.calculator.CalculatorClass02" />
+      <option name="MAIN_CLASS_NAME" value="ch04.calculator.CalculatorClass03" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
@@ -45,14 +52,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorClass03" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="ListClass01" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ch04.calculator.CalculatorClass03" />
+      <option name="MAIN_CLASS_NAME" value="ch27.collectionframework.list.ListClass01" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.calculator.*" />
+          <option name="PATTERN" value="ch27.collectionframework.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListMain01" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ch27.collectionframework.list.ListMain01" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch27.collectionframework.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListMain02" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ch27.collectionframework.list.ListMain02" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch27.collectionframework.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetClass01" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ch27.collectionframework.set.SetClass01" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch27.collectionframework.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,28 +129,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.CalculatorClass02" />
       <item itemvalue="Application.CalculatorClass03" />
+      <item itemvalue="Application.ListClass01" />
+      <item itemvalue="Application.ListMain01" />
+      <item itemvalue="Application.ListMain02" />
+      <item itemvalue="Application.SetClass01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetClass01" />
+        <item itemvalue="Application.ListMain02" />
+        <item itemvalue="Application.ListMain01" />
+        <item itemvalue="Application.ListClass01" />
         <item itemvalue="Application.CalculatorClass03" />
-        <item itemvalue="Application.CalculatorClass02" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +172,7 @@
       <workItem from="1622850867356" duration="546000" />
       <workItem from="1622851596207" duration="291000" />
       <workItem from="1622872378888" duration="1523000" />
+      <workItem from="1622931868130" duration="8407000" />
     </task>
     <servers />
   </component>

@@ -41,15 +41,15 @@
       <recent name="C:\Users\USER\Desktop\files\CodingFiles\FullStack\JavaBackendClass\WorkSpace\JAVA\src\ch27\collectionframework\properties\second" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PropertiesClass02">
-    <configuration name="ListMain01" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ExceptionMain03">
+    <configuration name="CEMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ch27.collectionframework.list.ListMain01" />
+      <option name="MAIN_CLASS_NAME" value="ch28.exception.theowable.CEMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch27.collectionframework.list.*" />
+          <option name="PATTERN" value="ch28.exception.theowable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,14 +57,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListMain02" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionMain01" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ch27.collectionframework.list.ListMain02" />
+      <option name="MAIN_CLASS_NAME" value="ch28.exception.exceptionpackage.ExceptionMain01" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch27.collectionframework.list.*" />
+          <option name="PATTERN" value="ch28.exception.theowable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,14 +72,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertiesClass01" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionMain02" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ch27.collectionframework.properties.first.PropertiesClass01" />
+      <option name="MAIN_CLASS_NAME" value="ch28.exception.exceptionpackage.ExceptionMain02" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch27.collectionframework.properties.first.*" />
+          <option name="PATTERN" value="ch28.exception.theowable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,14 +87,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertiesClass02" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="ExceptionMain03" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ch27.collectionframework.properties.second.PropertiesClass02" />
+      <option name="MAIN_CLASS_NAME" value="ch28.exception.exceptionpackage.ExceptionMain03" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch27.collectionframework.properties.second.*" />
+          <option name="PATTERN" value="ch28.exception.exceptionpackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,14 +102,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetClass01" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="TryWithResource" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ch27.collectionframework.set.SetClass01" />
+      <option name="MAIN_CLASS_NAME" value="ch28.exception.exceptionpackage.TryWithResource" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch27.collectionframework.set.*" />
+          <option name="PATTERN" value="ch28.exception.exceptionpackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,21 +134,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.ListMain01" />
-      <item itemvalue="Application.ListMain02" />
-      <item itemvalue="Application.SetClass01" />
-      <item itemvalue="Application.PropertiesClass01" />
-      <item itemvalue="Application.PropertiesClass02" />
+      <item itemvalue="Application.ExceptionMain01" />
+      <item itemvalue="Application.ExceptionMain02" />
+      <item itemvalue="Application.CEMain" />
+      <item itemvalue="Application.ExceptionMain03" />
+      <item itemvalue="Application.TryWithResource" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PropertiesClass02" />
-        <item itemvalue="Application.PropertiesClass01" />
-        <item itemvalue="Application.SetClass01" />
-        <item itemvalue="Application.ListMain02" />
-        <item itemvalue="Application.ListMain01" />
+        <item itemvalue="Application.ExceptionMain03" />
+        <item itemvalue="Application.TryWithResource" />
+        <item itemvalue="Application.CEMain" />
+        <item itemvalue="Application.ExceptionMain02" />
+        <item itemvalue="Application.ExceptionMain01" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +181,16 @@
       <workItem from="1623018913658" duration="3735000" />
       <workItem from="1623060732132" duration="1582000" />
       <workItem from="1623064079084" duration="11000" />
+      <workItem from="1623105378094" duration="986000" />
+      <workItem from="1623147784620" duration="585000" />
+      <workItem from="1623191680606" duration="1483000" />
+      <workItem from="1623234588311" duration="2726000" />
+      <workItem from="1623278885834" duration="2906000" />
+      <workItem from="1623318206191" duration="840000" />
+      <workItem from="1623319339181" duration="210000" />
+      <workItem from="1623319661679" duration="715000" />
+      <workItem from="1623320975084" duration="125000" />
+      <workItem from="1623408706790" duration="6417000" />
     </task>
     <servers />
   </component>

@@ -47,7 +47,7 @@
       <recent name="C:\Users\USER\Desktop\files\CodingFiles\FullStack\JavaBackendClass\WorkSpace\JAVA\src\ch27\collectionframework\properties\second" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadMain (2)">
+  <component name="RunManager" selected="Application.SynchronizedThreadMain">
     <configuration name="AbstractClassMain" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="ch20.oop.abstractpackage.AbstractClassMain" />
@@ -70,27 +70,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTypeClass01" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="SynchronizedThreadMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="ch02.datatype.DataTypeClass01" />
+      <option name="MAIN_CLASS_NAME" value="ch29.Thread.synchronizecustom.SynchronizedThreadMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.datatype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadMain (1)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="ch29.Thread.custom04.ThreadMain" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch29.Thread.custom04.*" />
+          <option name="PATTERN" value="ch29.Thread.synchronizecustom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadMain (3)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="ch29.Thread.custom03.ThreadMain" />
+      <option name="MAIN_CLASS_NAME" value="ch29.Thread.custom06.ThreadMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch29.Thread.custom03.*" />
+          <option name="PATTERN" value="ch29.Thread.custom06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +112,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadMain (4)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="MAIN_CLASS_NAME" value="ch29.Thread.custom02.ThreadMethod" />
+      <option name="MAIN_CLASS_NAME" value="ch29.Thread.custom07.ThreadMain" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch29.Thread.custom02.*" />
+          <option name="PATTERN" value="ch29.Thread.custom07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadMain" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="MAIN_CLASS_NAME" value="ch29.Thread.synchronizecustom.ThreadMain" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch29.Thread.synchronizecustom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,19 +161,19 @@
     <list>
       <item itemvalue="Application.AbstractClassMain" />
       <item itemvalue="Application.AccessModifierClass02Main" />
-      <item itemvalue="Application.DataTypeClass01" />
-      <item itemvalue="Application.ThreadMethod" />
-      <item itemvalue="Application.ThreadMain" />
-      <item itemvalue="Application.ThreadMain (1)" />
       <item itemvalue="Application.ThreadMain (2)" />
+      <item itemvalue="Application.ThreadMain (3)" />
+      <item itemvalue="Application.ThreadMain (4)" />
+      <item itemvalue="Application.ThreadMain (5)" />
+      <item itemvalue="Application.SynchronizedThreadMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedThreadMain" />
+        <item itemvalue="Application.ThreadMain (5)" />
+        <item itemvalue="Application.ThreadMain (4)" />
+        <item itemvalue="Application.ThreadMain (3)" />
         <item itemvalue="Application.ThreadMain (2)" />
-        <item itemvalue="Application.ThreadMain (1)" />
-        <item itemvalue="Application.ThreadMain" />
-        <item itemvalue="Application.ThreadMethod" />
-        <item itemvalue="Application.DataTypeClass01" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +216,8 @@
       <workItem from="1623710926003" duration="733000" />
       <workItem from="1623715393702" duration="3000" />
       <workItem from="1624013349409" duration="5723000" />
+      <workItem from="1624025668533" duration="2000" />
+      <workItem from="1624071912535" duration="3319000" />
     </task>
     <servers />
   </component>

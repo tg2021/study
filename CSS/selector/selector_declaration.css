@@ -1,0 +1,19 @@
+/* 
+    선택자와 선언
+    li 태그 전체에 색을 변경할 때
+    text-decoration: underline; -> li 태그 안에 내용밑줄
+    p(Selector : 선택자) { color(property : 속성) : red(value : 값); } 
+*/
+
+li { color: red; text-decoration: underline; }
+
+/*
+    id 선택자
+    id 값이 select인 태그에 대해 효과를 준다
+*/
+
+#select {font-size: 50px;}
+
+/*
+    부모 자식 선택자 : 정교한 선택을 하기위해 사용
+*/

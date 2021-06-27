@@ -1,0 +1,17 @@
+/*
+    캐스캐이딩
+    저자 > 사용자 > 웹브라우저
+*/
+
+/*
+    적용범위 우선순위 확인
+    1순위 : 인라인 스타일
+    2순위 : id 스타일
+    3순위 : class 스타일
+    4순위 : 태그 스타일
+
+    !important : 우선순위를 높인다.
+*/
+li {color: red;}
+#idsel {color: blue;}
+.classsel {color: green;}

@@ -1,0 +1,9 @@
+/*
+    color 지정 방식
+
+    color -> name : ex) color: red;
+    hex -> 16진수 방식 : #0000000;
+    rgb 값 : rgb(255, 0, 0, 투명도)
+*/
+
+h1 {color: red;}

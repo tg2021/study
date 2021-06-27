@@ -1,0 +1,62 @@
+/* 
+    선택자와 선언
+    li 태그 전체에 색을 변경할 때
+    text-decoration: underline; -> li 태그 안에 내용밑줄
+    p(Selector : 선택자) { color(property : 속성) : red(value : 값); } 
+*/
+
+li { color: red; text-decoration: underline; }
+
+/*
+    id 선택자
+    id 값이 select인 태그에 대해 효과를 준다
+*/
+
+#select {font-size: 50px;}
+
+/*
+    부모 자식 선택자 : 정교한 선택을 하기위해 사용
+*/
+
+/*
+    id lecture 밑의 li에만 주는 방법
+*/
+
+#lecture > li  { border: 1px solid red; color: blue; }
+
+ul, ol { background-color: powderblue;}
+
+/*
+    pseudo class selector : 가상 클래스 선택자
+*/
+/*
+    a:active : active되어있는 모든 선택자를 가리킴
+    a태그를 누르면 greenyellow으로 변한다.
+*/
+a:active {
+    color: red;
+}
+
+/*
+    a:hover : 마우스를 a태그에 올리면 yellow으로 변한다.
+*/
+
+a:hover {
+    color: yellow;
+}
+
+/*
+    a태그 위에 마우스를 가져다 대면 hover적용, 
+    클릭한 상태를 유지하면서 a 태그에 마우스를 가져다 대면 css는 클래스가 동급이면 뒤쪽의 선언을 선택해 hover에 색을 표시한다 
+    마우스를 클릭한 상태에서 a 태그에서 멀어지면 active의 색이 적용된다.
+*/
+
+/*
+    a:visited 방문한 상태를 나타냄
+    visited는 보안적인 문제로 속성이 제한됨
+*/
+a:visited { color: darkgreen; } 
+a:link { color: black; }
+a:focus { color: white;}
+
+input:focus { background-color: black; color: white;}

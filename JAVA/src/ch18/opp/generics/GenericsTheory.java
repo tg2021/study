@@ -42,7 +42,7 @@ public class GenericsTheory {
         타입명       사용방법
         E           Element의 구성요소
                     Collection에서 주소사용
-                    Collection은 List, Mao 등의
+                    Collection은 List, Map 등의
                     자료구조를 의미
 
         K           Key의 의미로 사용
